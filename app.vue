@@ -1,9 +1,7 @@
 <template>
-  <div data-theme="light">
-    <NuxtLayout data-theme="dark">
-      <NuxtPage />
-    </NuxtLayout>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
 <script setup>
